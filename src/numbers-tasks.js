@@ -104,7 +104,6 @@ function getLinearEquationRoot(a, b) {
  *   (0,1) (0,-1)    => π
  *   (0,-1) (1,0)    => π/2
  *   (0,1) (0,1)     => 0
- *   (0,1) (1,2)     => 0
  */
 function getAngleBetweenVectors(x1, y1, x2, y2) {
   if (Math.atan2(y2, x2) - Math.atan2(y1, x1) > 0) {
